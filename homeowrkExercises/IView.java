@@ -1,4 +1,4 @@
-package homeowrkExercises;
+package homeworkExercises;
 
 // the generic MODEL of the VIEW
 public interface IView {

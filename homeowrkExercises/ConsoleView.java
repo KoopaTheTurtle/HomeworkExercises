@@ -1,8 +1,6 @@
-package homeowrkExercises;
+package homeworkExercises;
 //package homeworkExercises;
 import java.util.Scanner;
-
-import homeowrkExercises.IView;
 
 public class ConsoleView implements IView {
 

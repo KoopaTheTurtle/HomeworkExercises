@@ -1,4 +1,4 @@
-package homeowrkExercises;
+package homeworkExercises;
 
 public class HomeworkController extends ExerciseController {
 	
@@ -18,16 +18,13 @@ public class HomeworkController extends ExerciseController {
 		myView.say("Exercise Four: " + Hwk.SumAndAverage());
 		myView.say("Exercise Five: " + Hwk.DoWhile());
 		myView.say("Exercise Six: " + Hwk.WhileDo());
-		myView.say("Exercise Six: " + Hwk.OnlyOdd());
-		myView.say("Exercise Six: " + Hwk.DivideSevens());
-		myView.say("Exercise Six: " + Hwk.SumOfSquares());
-		
-		myView.say("Now Leaving Exercises 1 to 10. Now Entering Exercises 11 to 20");
-		
-		myView.say("Exercise Six: " + Hwk.Product1toN());
-		myView.say("Exercise Six: " + Hwk.WhileDo());
-		
+		myView.say("Exercise Seven: " + Hwk.OnlyOdd());
+		myView.say("Exercise Eight: " + Hwk.DivideSevens());
+		myView.say("Exercise Nine: " + Hwk.SumOfSquares());
 		myView.say("");
-		myView.say(Hwk.Testing());
+		myView.say("Now Leaving Exercises 1 to 10. Now Entering Exercises 11 to 20");
+		myView.say("");
+		myView.say("Exercise Ten: " + Hwk.Product1toN());
+		myView.say("Exercise Eleven: " + Hwk.WhileDo());
 	}
 }

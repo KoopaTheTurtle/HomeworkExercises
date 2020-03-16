@@ -1,4 +1,4 @@
-package homeowrkExercises;
+package homeworkExercises;
 //package homeworkExercises;
 
 import java.util.ArrayList; 
@@ -110,7 +110,7 @@ public class Homework {
 		String Avgs = String.valueOf(getAvg());
 		
 		Output = "The Sum is " + Sum + " and The Average is " + Avgs;
-		OutputTest = "Test: " + arry;
+		//OutputTest = "Test: " + arry;
 		
 		return Output;
 		
@@ -158,10 +158,9 @@ public class Homework {
 		String Avgs = String.valueOf(getAvg());
 		
 		Output = "The Sum is " + Sum + " and the average is " + Avgs;
-		OutputTest = "Test: " + arry;
+		//OutputTest = "Test: " + arry;
 		
-		//return Output;
-		return Output + OutputTest;
+		return Output;
 	}
 
 	public static String DivideSevens() {
@@ -180,9 +179,9 @@ public class Homework {
 		String Avgs = String.valueOf(getAvg());
 		
 		Output = "The Sum is " + Sum + " and The Average is " + Avgs;
-		OutputTest = "Test: " + arry;
+		//OutputTest = "Test: " + arry;
 		
-		return Output + OutputTest;
+		return Output;
 		
 	}
 

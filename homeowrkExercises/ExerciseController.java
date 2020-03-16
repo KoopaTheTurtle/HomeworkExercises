@@ -1,4 +1,4 @@
-package homeowrkExercises;
+package homeworkExercises;
 
 public abstract class ExerciseController {
 	protected IView myView;
